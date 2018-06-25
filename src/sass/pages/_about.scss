@@ -1,0 +1,44 @@
+.about {
+  .content-page_hero {
+    @include content-hero-img(url('/img/about-hero.jpg'));
+  }
+  &_container {
+    padding-top: 3em;
+    padding-bottom: 3em;
+  }
+  &_team {
+    margin-bottom: 40px;
+
+    h3 {
+      font-size: 24px;
+    }
+    > div {
+      padding-bottom: 1em;
+      border-bottom: 1px solid #f3f3f3;
+    }
+    &-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      > img {
+        margin-right: 25px;
+      }
+    }
+  }
+  &_content {
+    display: flex;
+    flex-direction: column;
+    @include mq(medium) {
+        flex-direction: row;
+    }
+    > div {
+      &:first-of-type {
+        margin-right: 2.25em;
+        flex: 1 0 125px;
+      }
+      &:last-of-type {
+        flex: 1;
+      }
+    }
+  }
+}

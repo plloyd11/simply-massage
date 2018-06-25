@@ -1,0 +1,80 @@
+// Basic typography style for copy text
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a,
+li,
+p,
+small,
+label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+p {
+  line-height: 1.35;
+}
+
+.paragraph-large {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+h2 {
+  -webkit-font-kerning: normal;
+  font-kerning: normal;
+  -webkit-font-variant-ligatures: common-ligatures contextual discretionary-ligatures;
+  font-variant-ligatures: common-ligatures contextual discretionary-ligatures;
+  -webkit-font-feature-settings: 'kern', 'liga', 'clig', 'calt', 'dlig';
+  font-feature-settings: 'kern', 'liga', 'clig', 'calt', 'dlig';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: block;
+  margin-bottom: 0.83333em;
+  color: #212b35;
+  font-size: 1.5em;
+  line-height: 1.222;
+  font-weight: 700;
+}
+
+.section-header {
+  margin-bottom: 2em;
+  font-size: 24px;
+  color: hsla(215, 15%, 22%,.6);
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+}
+
+.section-header-article {
+  margin-bottom: 2em;
+  font-size: 1.95em;
+  letter-spacing: 0.5px;
+}
+
+.footer-header {
+  margin: 15px 0 30px;
+  font-size: 22px;
+  color: #FFFFFF;
+  text-align: center;
+  @include mq(medium) {
+    text-align: left;
+  }
+}
+
+.page-title {
+  margin-left: 9px;
+  font-size: 32px;
+}
+
+.link-dark {
+  &:hover {
+    color: darken($primary-color, 15%);
+  }
+}

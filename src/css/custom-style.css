@@ -1,0 +1,46 @@
+.scheme_original .top_panel_inner_style_4 .top_panel_top {
+    background-color: #000;
+    color: #fff;
+}
+
+.sc_team_style_team-3 .sc_team_item_avatar {
+    border-radius: inherit;
+}
+
+body,
+#slide-1-layer-3, #slide-4-layer-3, #slide-5-layer-3, #slide-6-layer-3, #slide-7-layer-3 {
+    font-family: 'Montserrat', sans-serif; 
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a,
+li,
+p,
+small,
+label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+.cu_text_c {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.menu_main_nav>li>a {
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.top_panel_middle .logo {
+    margin-top: .75em;
+    margin-bottom: 0;
+}
