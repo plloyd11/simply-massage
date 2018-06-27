@@ -1060,7 +1060,7 @@ img.tp-slider-alternative-image {
     line-height: 60px;
     font-weight: 400;
     font-style: normal;
-    font-family: Raleway;
+    font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     text-align: center;
     background-color: #000;
@@ -1578,7 +1578,7 @@ body.rtl .tp-kbimg {
     line-height: 68px;
     font-weight: 300;
     color: rgba(255, 255, 255, 1.00);
-    font-family: Raleway;
+    font-family: Montserrat;
     text-align: center;
     text-transform: uppercase;
 }
@@ -1608,7 +1608,7 @@ body.rtl .tp-kbimg {
     line-height: 60px;
     font-weight: 700;
     color: rgba(255, 255, 255, 1.00);
-    font-family: Raleway;
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     background-color: rgba(249, 163, 146, 1.00);
     padding: 0px 66px 0px 66px;
@@ -1625,7 +1625,7 @@ body.rtl .tp-kbimg {
     line-height: 68px;
     font-weight: 300;
     color: rgba(255, 255, 255, 1.00);
-    font-family: Raleway;
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
 }
 #slide-3-layer-3 {
@@ -1662,7 +1662,7 @@ body.rtl .tp-kbimg {
     line-height: 90px;
     font-weight: 400;
     color: rgba(255, 255, 255, 1.00);
-    font-family: Mr De Haviland;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
 #slide-8-layer-1 {
@@ -1676,7 +1676,7 @@ body.rtl .tp-kbimg {
     line-height: 90px;
     font-weight: 400;
     color: rgba(255, 255, 255, 1.00);
-    font-family: Mr De Haviland;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
 #slide-8-layer-2 {
@@ -1686,7 +1686,7 @@ body.rtl .tp-kbimg {
     line-height: 38px;
     font-weight: 300;
     color: rgba(255, 255, 255, 1.00);
-    font-family: Raleway;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     text-transform: uppercase;
 }
@@ -1697,7 +1697,7 @@ body.rtl .tp-kbimg {
     line-height: 15px;
     font-weight: 400;
     color: rgba(255, 255, 255, 1.00);
-    font-family: Droid Serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
 #slide-8-layer-4 {
@@ -1707,7 +1707,7 @@ body.rtl .tp-kbimg {
     line-height: 60px;
     font-weight: 700;
     color: rgba(255, 255, 255, 1.00);
-    font-family: Raleway;
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     background-color: rgba(249, 163, 146, 1.00);
     padding: 0px 66px 0px 66px;

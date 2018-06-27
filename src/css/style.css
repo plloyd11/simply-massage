@@ -2852,7 +2852,7 @@ form.search_form .search_button:hover {
     text-transform: uppercase;
     cursor: pointer;
     display: none;
-    font-family: Raleway;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 }
 .top_panel_image+.header_mobile .side_wrap {
@@ -6544,8 +6544,8 @@ body .body_wrap table.booked-calendar tr.days th,
 .esg-grid .esg-filters .esg-sortbutton,
 .esg-grid .esg-filters .esg-cartbutton a,
 .woocommerce ul.products li.product a.added_to_cart {
-    font-family: Raleway;
+    font-family: 'Montserrat', sans-serif;
 }
 .mejs-container * {
-    font-family: Raleway!important;
+    font-family: 'Montserrat', sans-serif;
 }

@@ -44,3 +44,11 @@ label {
     margin-top: .75em;
     margin-bottom: 0;
 }
+
+.top_panel_wrap .logo_main {
+    width: 100%;
+}
+
+.logo_footer {
+    width: 85px;
+}
