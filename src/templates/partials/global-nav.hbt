@@ -44,41 +44,29 @@
                     <nav class="menu_main_nav_area">
                         <ul class="menu_main_nav">
                             <li class="menu-item current-menu-ancestor current-menu-parent"><a href="/">Home</a></li>
-                            <li class="menu-item menu-item-has-children"><a>Features</a>
+                            <li class="menu-item menu-item-has-children"><a>Services</a>
                                 <ul class="sub-menu">
-                                    <li class="menu-item"><a href="gallery-polaroid.html">Polaroid gallery</a></li>
-                                    <li class="menu-item menu-item-has-children"><a>About</a>
+                                    <li class="menu-item"><a href="#">Massage</a></li>
+                                    <li class="menu-item menu-item-has-children"><a>Facials</a>
                                         <ul class="sub-menu">
-                                            <li class="menu-item"><a href="about-us.html">About Us</a></li>
-                                            <li class="menu-item"><a href="about-us-2.html">About Us 2</a></li>
-                                            <li class="menu-item"><a href="staff.html">Our Staff</a></li>
-                                            <li class="menu-item"><a href="price-tables.html">Price Tables</a></li>
-                                            <li class="menu-item"><a href="pricing.html">Pricing</a></li>
-                                            <li class="menu-item"><a href="events.html">Events</a></li>
-                                            <li class="menu-item"><a href="certificates.html">Gift Certificates</a></li>
+                                            <li class="menu-item"><a href="#">Facial stuff</a></li>
                                         </ul>
                                     </li>
-                                    <li class="menu-item menu-item-has-children"><a>Services</a>
+                                    <li class="menu-item menu-item-has-children"><a>Body Care</a>
                                         <ul class="sub-menu">
-                                            <li class="menu-item"><a href="services.html">Services 1</a></li>
-                                            <li class="menu-item"><a href="services-2.html">Services 2</a></li>
+                                            <li class="menu-item"><a href="#">Body Stuff</a></li>
                                         </ul>
                                     </li>
-                                    <li class="menu-item menu-item-has-children"><a>Pages</a>
+                                    <li class="menu-item menu-item-has-children"><a>Facelift</a>
                                         <ul class="sub-menu">
-                                            <li class="menu-item"><a href="typography.html">Typography</a></li>
-                                            <li class="menu-item"><a href="shortcodes.html">Shortcodes</a></li>
-                                            <li class="menu-item"><a href="404.html">404 Page</a></li>
-                                            <li class="menu-item"><a href="video.html">Video tutorials</a></li>
-                                            <li class="menu-item"><a href="customization.html">Customization</a></li>
-                                            <li class="menu-item"><a href="faq.html">Faq Page</a></li>
-                                            <li class="menu-item"><a href="support.html">Support</a></li>
+                                            <li class="menu-item"><a href="#">Face Stuff</a></li>
                                         </ul>
                                     </li>
                                 </ul>
                             </li>
-                            <li class="menu-item"><a href="/booking">Booking</a></li>
-                            <li class="menu-item"><a href="/contact-us">Contact Us</a></li>
+                            <li class="menu-item"><a href="#">Our Team</a></li>
+                            <li class="menu-item"><a href="#">Testimonials</a></li>
+                            <li class="menu-item"><a href="#">Contact Us</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -113,7 +101,7 @@
             </ul>
         </div>
     </div>
-    <div class="side_wrap">
+    {{!-- <div class="side_wrap">
         <div class="close">Close</div>
         <div class="panel_top">
             <nav class="menu_main_nav_area">
@@ -223,6 +211,6 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <div class="mask"></div>
 </div>
