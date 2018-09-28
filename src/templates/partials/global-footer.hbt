@@ -1,72 +1,46 @@
-        <footer class="footer_wrap widget_area scheme_original">
-            <div class="footer_wrap_inner widget_area_inner">
-                <div class="content_wrap">
-                    <div class="columns_wrap">
-                        <aside class="column-1_4 widget widget_socials">
-                            <div class="widget_inner">
-                                <div class="logo">
-                                    <a href="index.html">
-                                        <img src="img/footer-logo.svg" class="logo_footer" alt="Simply Massage Logo">
-                                    </a>
-                                </div>
-                                <div class="logo_descr">Welcome to one of most relaxing salons, where our therapists offer tranquility whilst being treated.</div>
-                            </div>
-
-                        </aside>
-                        <aside class="column-1_4 widget widget_text">
-                            <h5 class="widget_title">Contact</h5>
-                            <div class="textwidget">
-                                <ul class="sc_list_style_iconed ">
-                                    <li>
-                                        <span class="sc_list_icon icon-icon_pin"></span>
-                                        902 Main Street<br/>
-                                        Suite #130<br>
-                                        Belmar, NJ 07719
-                                    </li>
-                                    <li>
-                                        <span class="sc_list_icon icon-icon_phone"></span>(732) 610-7435
-                                    </li>
-                                    <li>
-                                        <span class="sc_list_icon icon-icon_mail"></span>
-                                        <a href="mailto:simplymassagebelmar@yahoo.com">simplymassagebelmar@yahoo.com</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </aside>
-                        <aside class="column-1_4 widget widget_recent_posts">
-                            <h5 class="widget_title">Appointments</h5>
-                            <article class="post_item no_thumb first">
-                                <div class="post_content">
-                                    <h6 class="post_title">All sessions are by appointment only</h6>
-                                </div>
-                            </article>
-                        </aside>
-                    </div>
-                </div>
-            </div>
-        </footer>
-
-        <div class="copyright_wrap copyright_style_socials scheme_original">
-            <div class="copyright_wrap_inner">
-                <div class="content_wrap">
-                    <div class="sc_socials sc_socials_type_text sc_socials_shape_square sc_socials_size_tiny">
-                        <div class="sc_socials_item">
-                            <a href="#" target="_blank" class="social_icons social_twitter">twitter</a>
-                        </div>
-                        <div class="sc_socials_item">
-                            <a href="#" target="_blank" class="social_icons social_gplus">gplus</a>
-                        </div>
-                        <div class="sc_socials_item">
-                            <a href="#" target="_blank" class="social_icons social_facebook">facebook</a>
-                        </div>
-                        <div class="sc_socials_item">
-                            <a href="#" target="_blank" class="social_icons social_instagramm">instagram</a>
-                        </div>
-                    </div>
-                    <span class="beforeSocials">Connect With Us:</span>
-                    <div class="copyright_text">
-                        <p>Simply Massage © 2018 All Rights Reserved</p>
-                    </div>
-                </div>
+<footer class="global--footer">
+    <div class="global--footer-wrapper wrapper">
+        <div class="global--footer-overview">
+            <a href="/"><img src="/img/logos/footer-logo.svg" alt="Simply Massage Logo"></a>
+            <p>Give yourself a moment to relax. <br> Find a minute to rejuvenate your body</p>
+            <div class="global--footer-overview_icons">
+                <a href="https://www.youtube.com/user/OmnitechAutomation" target="_blank"><img src="/img/icons/youtube.svg" alt="YoutTube logo"></a>
+                <a href="https://www.facebook.com/OmnitechAutomation/" target="_blank"><img src="/img/icons/facebook.svg" alt="Facebook logo"></a>
+                <a href="https://twitter.com/@OmnitechUSA" target="_blank"><img src="/img/icons/twitter.svg" alt="Twitter logo"></a>
+                <a href="https://www.instagram.com/omnitechautomation/ " target="_blank"><img src="/img/icons/instagram.svg" alt="Instagram logo"></a>
+                <a href="https://www.linkedin.com/company/omnitech-automation-inc/" target="_blank"><img src="/img/icons/linkedin.svg" alt="LinkedIn logo"></a>
+                <a href="https://plus.google.com/u/0/100619187120151026934" target="_blank"><img src="/img/icons/google-plus-square.svg" alt="Google logo"></a>
             </div>
         </div>
+        <div class="global--footer-nav">
+            <h3 class="footer-header">Company</h3>
+            <a href="/products">Products</a>
+            <a href="/capabilities">Capabilities</a>
+            <a href="/services">Services</a>
+            <a href="/gallery">Gallery</a>
+            <a href="/about-us">About Us</a>
+            <a href="/contact">Contact</a>
+        </div>
+        <div class="global--footer-contact">
+            <h3 class="footer-header">Contact</h3>
+            <div>
+                <img src="/img/icons/map-pin.svg" alt="">
+                <div class="global--footer-contact-info">
+                    <p>Simply Massage</p>
+                    <p>902 Main Street</p>
+                    <p>Suite #103</p>
+                    <p>Belmar, NJ 07719</p>
+                </div>
+            </div>
+            <div>
+                <img src="/img/icons/phone.svg" alt="">
+                <p>732-610-7435</p>
+            </div>
+            <div>
+                <img src="/img/icons/envelope.svg" alt="">
+                <a href="mailto:simplymassagebelmar@yahoo.com">simplymassagebelmar@yahoo.com</a>
+            </div>
+        </div>
+    </div>
+    <small class="txt-center">Copyright © 2018 Simply Massage. All rights reserved.</small>
+</footer>

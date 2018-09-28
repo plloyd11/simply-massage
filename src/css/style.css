@@ -1762,6 +1762,7 @@ body:not(.top_panel_fixed) .top_panel_position_over .top_panel_bottom {
     position: relative;
 }
 .top_panel_wrap li li>a {
+    font-size: 13px;
     position: relative;
     display: block;
     padding: 0.2em;

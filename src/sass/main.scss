@@ -12,9 +12,7 @@
 @import
   'vendor/faq',
   'vendor/slider',
-  'vendor/gallery',
-  'vendor/timeline',
-  'vendor/reset';
+  'vendor/gallery';
 
 // 3. Base stuff
 @import
@@ -36,17 +34,12 @@
 
 // 6. Page-specific styles
 @import
-  'pages/homepage/hero',
-  'pages/homepage/synopsis',
-  'pages/homepage/company',
-  'pages/homepage/pricing',
-  'pages/homepage/services',
-  'pages/homepage/clients',
   'pages/contact',
   'pages/services',
   'pages/schedule',
   'pages/getting-started',
   'pages/gallery',
+  'pages/our-team',
   'pages/about',
   'pages/capabilities',
   'pages/products';

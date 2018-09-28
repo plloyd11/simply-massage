@@ -22,4 +22,5 @@
 <script type='text/javascript' src='/js/vendor/hotspot/script.min.js'></script>
 <script type='text/javascript' src='/js/vendor/grid.layout/grid.layout.min.js'></script>
 <script type='text/javascript' src='/js/vendor/swiper/swiper.js'></script>
+<script type='text/javascript' src='/js/vendor/jquery/tabs.min.js'></script>
 <script type='text/javascript' src='/js/vendor/isotope/isotope.min.js'></script>
