@@ -33,7 +33,7 @@
   // Overview Section
   &-overview {
     img {
-      width: 125px;
+      width: 85px;
       margin: 0 auto 0.35em;
     }
 
@@ -76,7 +76,6 @@
 
     @include mq (medium) {
       margin-top: 0;
-      border-top: 1px solid $primary-color;
     }
 
     >a {
@@ -111,7 +110,10 @@
     @include mq (medium) {
       margin-top: 0;
       text-align: left;
-      border-top: 1px solid $primary-color;
+    }
+
+    > h3 {
+      margin-left: 35px;
     }
 
     &-info {
@@ -132,6 +134,10 @@
       >img {
         margin-right: 20px;
       }
+    }
+
+    p {
+      margin-bottom: 0;
     }
   }
 }
