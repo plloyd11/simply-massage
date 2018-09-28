@@ -66,27 +66,32 @@
     <div class="content_wrap">
         <div class="menu_button icon-menu"></div>
         <div class="logo">
-            <a href="index.html">
-                <img src="img/logo.svg" class="logo_main" alt="" width="238" height="56">
+            <a href="/">
+                <img src="/img/logos/logo.svg" class="logo_main" alt="Simply Massage Logo">
             </a>
         </div>
-        <div class="menu_main_cart top_panel_icon">
-            <a href="#" class="top_panel_cart_button" data-items="0" data-summa="&pound;0.00">
-                <span class="contact_icon icon-icon_bag_alt"></span>
-            </a>
-            <ul class="widget_area sidebar_cart sidebar">
-                <li>
-                    <div class="widget woocommerce widget_shopping_cart">
-                        <div class="hide_cart_widget_if_empty">
-                            <div class="widget_shopping_cart_content">
-                                <ul class="cart_list product_list_widget ">
-                                    <li class="empty">No products in the cart.</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-            </ul>
+    </div>
+    <div class="side_wrap">
+        <div class="close">Close</div>
+        <div class="panel_top">
+            <nav class="menu_main_nav_area">
+                <ul class="menu_main_nav">
+                    <li class="menu-item"><a href="/">Home</a></li>
+                    <li class="menu-item menu-item-has-children current-menu-ancestor current-menu-parent"><a>Services</a>
+                        <ul class="sub-menu">
+                            <li class="menu-item"><a href="/massage">Massage</a></li>
+                            <li class="menu-item"><a href="/facials">Facials</a></li>
+                            <li class="menu-item"><a href="/body-care">Body Care</a></li>
+                            <li class="menu-item"><a href="/facelift">Facelift</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item"><a href="/our-team">Our Team</a></li>
+                    <li class="menu-item"><a href="/testimonials">Testimonials</a></li>
+                    <li class="menu-item"><a href="/contact-us">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="panel_bottom">
         </div>
     </div>
     <div class="mask"></div>
