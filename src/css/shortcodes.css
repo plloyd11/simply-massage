@@ -2977,7 +2977,7 @@ ul.sc_list_style_iconed {
 .sc_price_block {
     display: inline-block;
     overflow: hidden;
-    border: 3px solid #f8f8f8;
+    border: 3px solid hsl(230, 37%, 97%);
     padding: 3em 0;
     width: 100%;
     box-sizing: border-box;
@@ -3049,7 +3049,7 @@ ul.sc_list_style_iconed {
     min-height: 3.7em;
     padding: 2.1em 2em 0.8em;
     overflow: hidden;
-    border-top: 1px solid #F8F8F8;
+    border-top: 1px solid hsl(230, 37%, 97%);
 }
 .sc_price_block .sc_price_block_description li,
 .sc_price_block .sc_price_block_description p {

@@ -5,7 +5,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.scheme_original .menu_main_nav>li ul li a {
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -14,10 +15,13 @@ li,
 p,
 small,
 label {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
 }
 
-p {
+p,
+li,
+small {
+  color: hsl(204, 5%, 42%);
   line-height: 1.5;
 }

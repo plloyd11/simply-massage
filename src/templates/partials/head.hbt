@@ -16,8 +16,7 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <link rel='stylesheet' href='/css/admin_icon.min.css' type='text/css' media='all' />
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500i,700" rel="stylesheet">
-    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css?ver=4.3.0' type='text/css' media='all' />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Open+Sans:400,700" rel="stylesheet">    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css?ver=4.3.0' type='text/css' media='all' />
     <link rel='stylesheet' href='/js/vendor/tooltipster/tooltipster.css' type='text/css' media='all' />
     <link rel='stylesheet' href='/js/vendor/tooltipster/tooltipster-light.css' type='text/css' media='all' />
     <link rel='stylesheet' href='/js/vendor/essgrid/esg.settings.css' type='text/css' media='all' />
