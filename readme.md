@@ -1,6 +1,6 @@
-# Omnitech Automation
+# Simply Massage
 
-Marketing website for Omnitech Automation using Metalsmith, Gulp, and Node.js
+Marketing website for Simply Massage using Metalsmith, Gulp, and Node.js
 
 ## Development requirements
 
