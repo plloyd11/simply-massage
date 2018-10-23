@@ -8,22 +8,22 @@
                     <span class="label">Stay connected: </span>
                     <div class="sc_socials sc_socials_type_icons sc_socials_shape_square sc_socials_size_tiny">
                         <div class="sc_socials_item">
-                            <a href="#" target="_blank" class="social_icons social_twitter">
+                            <a href="https://twitter.com/simplymassagenj" target="_blank" rel="noopener" class="social_icons social_twitter">
                                 <span class="icon-twitter"></span>
                             </a>
                         </div>
                         <div class="sc_socials_item">
-                            <a href="#" target="_blank" class="social_icons social_gplus">
-                                <span class="icon-gplus"></span>
+                            <a href="https://www.yelp.com/biz/simply-massage-belmar" target="_blank" rel="noopener" class="social_icons social_gplus">
+                                <span class="icon-yelp"></span>
                             </a>
                         </div>
                         <div class="sc_socials_item">
-                            <a href="#" target="_blank" class="social_icons social_facebook">
+                            <a href="https://www.facebook.com/SimplyMassageNJ/" target="_blank" rel="noopener" class="social_icons social_facebook">
                                 <span class="icon-facebook"></span>
                             </a>
                         </div>
                         <div class="sc_socials_item">
-                            <a href="#" target="_blank" class="social_icons social_instagramm">
+                            <a href="#" target="_blank" rel="noopener" class="social_icons social_instagramm">
                                 <span class="icon-instagramm"></span>
                             </a>
                         </div>

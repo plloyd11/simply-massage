@@ -2,13 +2,16 @@
   margin-bottom: 1.5em;
   display: flex;
   align-items: center;
-  > img {
+
+  >img {
     width: 15px;
   }
-  > h4 {
+
+  >h4 {
     margin: 0 .25em;
   }
-  > p {
+
+  >p {
     margin: 0 .25em;
   }
 }
@@ -16,4 +19,16 @@
 .testimonial-bg {
   background: url('/img/homepage-testimonial.jpg') no-repeat center center;
   background-size: cover;
+}
+
+.cu_block_4 {
+  background-image: url(../img/homepage/homepage-book.jpg);
+}
+
+.cu_block_6 {
+  background-image: url(../img/homepage/homepage-product.jpg);
+}
+
+.cu_block_7 {
+  background-image: url(../img/homepage/homepage-contact.jpg);
 }
