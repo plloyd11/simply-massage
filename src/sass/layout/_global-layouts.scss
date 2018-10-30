@@ -142,7 +142,7 @@
     align-self: center;
 
     h3 {
-        margin-bottom: 25px;
+        margin-bottom: 5px;
         font-size: 1.65rem;
         font-weight: 500;
         color: #212b35;
@@ -151,6 +151,14 @@
     p {
         font-size: 18px;
         line-height: 1.5;
+    }
+
+    small {
+        font-size: 1.5rem;
+        font-weight: 600;
+        display: block;
+        margin-bottom: .65em;
+        color: #666c70;
     }
 }
 
@@ -196,4 +204,8 @@
 
 .align-center {
     align-self: center;
+}
+
+.jc {
+    justify-self: center;
 }
