@@ -132,7 +132,7 @@ layout: article.hbt
                                         <div class="sc_section_inner">
                                             <div class="sc_section_content_wrap">
                                                 <h2 class="sc_title sc_title_regular cu_mrg_5">have any questions?</h2>
-                                                <form name="contact-form" id="contactForm" @submit="checkForm" method="POST" data-netlify="true">
+                                                <form name="contact" id="contactForm" method="POST" data-netlify="true">
   
                                                     <p v-if="errors.length">
                                                       <b>Please correct the following error(s):</b>
@@ -184,24 +184,3 @@ layout: article.hbt
 </div>
 
 <a href="#" class="scroll_to_top icon-up" title="Scroll to top"></a>
-
-<form name="contact" method="POST" netlify>
-        <p>
-          <label>Your Name: <input type="text" name="name" /></label>   
-        </p>
-        <p>
-          <label>Your Email: <input type="email" name="email" /></label>
-        </p>
-        <p>
-          <label>Your Role: <select name="role[]" multiple>
-            <option value="leader">Leader</option>
-            <option value="follower">Follower</option>
-          </select></label>
-        </p>
-        <p>
-          <label>Message: <textarea name="message"></textarea></label>
-        </p>
-        <p>
-          <button type="submit">Send</button>
-        </p>
-      </form>
