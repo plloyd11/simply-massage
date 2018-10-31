@@ -132,7 +132,7 @@ layout: article.hbt
                                         <div class="sc_section_inner">
                                             <div class="sc_section_content_wrap">
                                                 <h2 class="sc_title sc_title_regular cu_mrg_5">have any questions?</h2>
-                                                <form name="contact" id="contactForm" @submit="checkForm" method="POST" netlify-honeypot="bot-field" netlify >
+                                                <form name="contact-form" id="contactForm" @submit="checkForm" method="POST" data-netlify="true">
   
                                                     <p v-if="errors.length">
                                                       <b>Please correct the following error(s):</b>
