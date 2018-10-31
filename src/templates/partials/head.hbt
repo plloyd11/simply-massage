@@ -42,4 +42,5 @@
     <link rel='stylesheet' href='/css/plugins.css' type='text/css' media='all' />
     <link rel='stylesheet' href='/css/custom.css' type='text/css' media='all' />
     <link rel="stylesheet" href="/css/main.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>

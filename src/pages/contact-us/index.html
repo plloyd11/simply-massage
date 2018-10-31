@@ -131,45 +131,45 @@ layout: article.hbt
                                     <div class="sc_section sc_section_block aligncenter max_width cu_width-770">
                                         <div class="sc_section_inner">
                                             <div class="sc_section_content_wrap">
-                                                <h2 class="sc_title sc_title_regular cu_mrg_5">have any
-                                                    questions?</h2>
-                                                <div id="sc_form_629_wrap" class="sc_form_wrap">
-                                                    <div id="sc_form_629" class="sc_form sc_form_style_form_3">
-                                                            <form name="contact" method="POST" netlify>
-                                                            <div class="sc_form_info">
-                                                                <div class="sc_form_item sc_form_field label_over">
-                                                                    <label class="required" for="sc_form_username">Name</label>
-                                                                    <input id="sc_form_username" type="text"
-                                                                        name="username" placeholder="Your Name">
-                                                                </div>
-                                                                <div class="sc_form_item sc_form_field label_over">
-                                                                    <label class="required" for="sc_form_email">E-mail</label>
-                                                                    <input id="sc_form_email" type="text" name="email"
-                                                                        placeholder="E-mail Address">
-                                                                </div>
-                                                                <div class="sc_form_item sc_form_field label_over">
-                                                                    <label class="required" for="sc_form_subj">Subject</label>
-                                                                    <input id="sc_form_subj" type="text" name="subject"
-                                                                        placeholder="Subject">
-                                                                </div>
-                                                            </div>
-                                                            <div class="sc_form_item sc_form_message label_over">
-                                                                <label class="required" for="sc_form_message">Message</label>
-                                                                <textarea id="sc_form_message" name="message"
-                                                                    placeholder="Your Message"></textarea>
-                                                            </div>
-                                                            <div class="sc_form_item sc_form_button">
-                                                                <button class="sc_button sc_button_style_filled sc_button_size_medium">
-                                                                    <span class="overlay">
-                                                                        <span class="first">Submit message</span>
-                                                                        <span class="second">Submit message</span>
-                                                                    </span>
-                                                                </button>
-                                                            </div>
-                                                            <div class="result sc_infobox"></div>
-                                                        </form>
-                                                    </div>
-                                                </div>
+                                                <h2 class="sc_title sc_title_regular cu_mrg_5">have any questions?</h2>
+                                                <form name="contactForm" id="contactForm" @submit="checkForm" action="/thank-you" method="post" novalidate="true" netlify-honeypot="bot-field" netlify >
+  
+                                                    <p v-if="errors.length">
+                                                      <b>Please correct the following error(s):</b>
+                                                      <ul>
+                                                        <li v-for="error in errors">{{ error }}</li>
+                                                      </ul>
+                                                    </p>
+                                                    
+                                                    <p>
+                                                      <label for="name">Name<label>
+                                                      <input type="text" name="name" id="name" v-model="name">
+                                                    </p>
+                                                  
+                                                    <p>
+                                                      <label for="email">Email<label>
+                                                      <input type="email" name="email" id="email" v-model="email">
+                                                    </p>
+                                                    <p>
+                                                        <label for="email">Town<label>
+                                                        <input type="text" name="town" id="town" v-model="town">
+                                                    </p>
+                                                  
+                                                    <p>
+                                                      <label for="movie">Service Interested In<label>
+                                                      <select name="movie" id="movie" v-model="movie">
+                                                        <option>Star Wars</option>
+                                                        <option>Vanilla Sky</option>
+                                                        <option>Atomic Blonde</option>
+                                                      </select>
+                                                    </p>
+                                                    <p class="hidden">
+                                                        <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                                                    </p>
+                                                    <p>
+                                                      <input type="submit" value="Submit">  
+                                                    </p>
+                                                </form>
                                             </div>
                                         </div>
                                     </div>
@@ -183,26 +183,5 @@ layout: article.hbt
         </div>
     </div>
 </div>
-
-<form name="test" method="POST" netlify>
-        <p>
-          <label>Your Name: <input type="text" name="name" /></label>   
-        </p>
-        <p>
-          <label>Your Email: <input type="email" name="email" /></label>
-        </p>
-        <p>
-          <label>Your Role: <select name="role[]" multiple>
-            <option value="leader">Leader</option>
-            <option value="follower">Follower</option>
-          </select></label>
-        </p>
-        <p>
-          <label>Message: <textarea name="message"></textarea></label>
-        </p>
-        <p>
-          <button type="submit">Send</button>
-        </p>
-      </form>
 
 <a href="#" class="scroll_to_top icon-up" title="Scroll to top"></a>

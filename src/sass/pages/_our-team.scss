@@ -9,3 +9,10 @@
 .review-list-item .review-list-item-info span {
     color: #fff !important;
 }
+
+.team--info {
+    margin-top: 4em;
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: 1fr 2fr;
+}
