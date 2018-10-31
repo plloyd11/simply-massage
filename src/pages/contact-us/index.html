@@ -169,6 +169,43 @@ layout: article.hbt
                                                     <input type="hidden" name="contact-form" value="contact" />  
                                                     <button type="submit">Submit</button>
                                                 </form>
+                                                <form class="hidden" name="contact" id="contactForm" @submit="checkForm" method="POST" data-netlify="true">
+  
+                                                        <p v-if="errors.length">
+                                                          <b>Please correct the following error(s):</b>
+                                                          <ul>
+                                                            <li v-for="error in errors">{{ error }}</li>
+                                                          </ul>
+                                                        </p>
+                                                        
+                                                        <p>
+                                                          <label for="name">Name<label>
+                                                          <input type="text" name="name" id="name" v-model="name">
+                                                        </p>
+                                                      
+                                                        <p>
+                                                          <label for="email">Email<label>
+                                                          <input type="email" name="email" id="email" v-model="email">
+                                                        </p>
+                                                        <p>
+                                                            <label for="email">Town<label>
+                                                            <input type="text" name="town" id="town" v-model="town">
+                                                        </p>
+                                                      
+                                                        <p>
+                                                          <label for="movie">Service Interested In<label>
+                                                          <select name="movie" id="movie" v-model="movie">
+                                                            <option>Star Wars</option>
+                                                            <option>Vanilla Sky</option>
+                                                            <option>Atomic Blonde</option>
+                                                          </select>
+                                                        </p>
+                                                        <p class="hidden">
+                                                            <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                                                        </p>
+                                                        <input type="hidden" name="contact-form" value="contact" />  
+                                                        <button type="submit">Submit</button>
+                                                </form>
                                             </div>
                                         </div>
                                     </div>
