@@ -132,37 +132,36 @@ layout: article.hbt
                                         <div class="sc_section_inner">
                                             <div class="sc_section_content_wrap">
                                                 <h2 class="sc_title sc_title_regular cu_mrg_5">have any questions?</h2>
-                                                <form name="contact" id="contactForm" v-on:submit="checkForm" method="POST" netlify>
+                                                <form name="contact" id="contactForm" method="POST" netlify-honeypot="bot-field" netlify>
   
-                                                    <p v-if="errors.length">
-                                                      <b>Please correct the following error(s):</b>
-                                                      <ul>
-                                                        <li v-for="error in errors">{{ error }}</li>
-                                                      </ul>
-                                                    </p>
-                                                    
-                                                    <p>
-                                                      <label for="name">Name<label>
-                                                      <input type="text" name="name" id="name" v-model="name">
-                                                    </p>
+                                                    <div class="field">
+                                                        <label for="name" class="label">Name</label>
+                                                        <div class="control">
+                                                            <input type="text" class="input" name="name" id="name" v-model="name" placeholder="First and Last Name" required>
+                                                        </div>
+                                                    </div>
+                                                            
+                                                    <div class="field">
+                                                        <label class="label">Email</label>
+                                                        <div class="control">
+                                                            <input class="input" type="email" placeholder="e.g. alexsmith@gmail.com" required>
+                                                        </div>
+                                                    </div>
                                                   
-                                                    <p>
-                                                      <label for="email">Email<label>
-                                                      <input type="email" name="email" id="email" v-model="email">
-                                                    </p>
-                                                    <p>
-                                                        <label for="email">Town<label>
-                                                        <input type="text" name="town" id="town" v-model="town">
-                                                    </p>
-                                                  
-                                                    <p>
-                                                      <label for="movie">Service Interested In<label>
-                                                      <select name="movie" id="movie" v-model="movie">
-                                                        <option>Star Wars</option>
-                                                        <option>Vanilla Sky</option>
-                                                        <option>Atomic Blonde</option>
-                                                      </select>
-                                                    </p>
+                                                    <div class="field">
+                                                        <label class="label">Service Interested In</label>
+                                                        <div class="control">
+                                                            <input class="input" type="email" placeholder="e.g. GuaSha Gemstone Facelift">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="field">
+                                                        <label class="label">Town</label>
+                                                        <div class="control">
+                                                            <input class="input" type="email" placeholder="e.g. Belmar, NJ">
+                                                        </div>
+                                                    </div>
+
                                                     <p class="hidden">
                                                         <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
                                                     </p>
