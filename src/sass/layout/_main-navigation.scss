@@ -11,6 +11,7 @@
     background-color: #000;
     z-index: 10000;
     transition: 0.35s ease-in;
+
     @include mq (medium) {
         padding-left: 1.75em;
         padding-right: 1.75em;
@@ -25,6 +26,7 @@
 
     &-right {
         display: none;
+
         @include mq (medium) {
             display: block;
         }
@@ -38,6 +40,7 @@
         color: #fff;
         text-transform: uppercase;
         font-size: 1rem;
+
         @include mq(small) {
             margin-top: 0;
             margin-bottom: 0;
@@ -48,6 +51,7 @@
             text-decoration: none;
         }
     }
+
     .nav-contact {
         background: $primary-color;
         padding: .65em .85em;
@@ -55,6 +59,7 @@
 
     &-mobile {
         display: block;
+
         @include mq (medium) {
             display: none;
         }
@@ -91,4 +96,24 @@
     display: flex;
     flex-direction: column;
     z-index: 10000;
+}
+
+
+
+@media (max-width: 1080px) {
+    .header_mobile .logo_main {
+        height: 75px;
+        margin: 0;
+    }
+
+    .header_mobile .logo {
+        padding: 10px 0;
+    }
+}
+
+.top_panel_top {
+    display: none;
+    @include mq(medium) {
+        display: block;
+    }
 }

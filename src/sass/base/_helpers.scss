@@ -53,7 +53,12 @@
 }
 
 .img-decorated {
-  box-shadow: 0 8px 28px rgba(0,0,0,0.15), 0 8px 10px rgba(0,0,0,0.12);
+  margin-bottom: 3.5em;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.15), 0 8px 10px rgba(0, 0, 0, 0.12);
+
+  @include mq(medium) {
+    margin-bottom: initial;
+  }
 }
 
 // Spacing
@@ -98,4 +103,11 @@
 
 .has-text-white {
   color: #fff !important;
+}
+
+.hidden-sm {
+  display: none;
+  @include mq(small) {
+    display: initial;
+  }
 }

@@ -79,10 +79,10 @@
                     <li class="menu-item"><a href="/">Home</a></li>
                     <li class="menu-item menu-item-has-children current-menu-ancestor current-menu-parent"><a>Services</a>
                         <ul class="sub-menu">
-                            <li class="menu-item"><a href="/massage">Massage</a></li>
-                            <li class="menu-item"><a href="/facials">Facials</a></li>
-                            <li class="menu-item"><a href="/body-care">Body Care</a></li>
-                            <li class="menu-item"><a href="/facelift">Facelift</a></li>
+                            <li class="menu-item"><a href="/services/massage">Massage</a></li>
+                            <li class="menu-item"><a href="/services/gemstone-facelift-facial">Gemstone Facelift Facial</a></li>
+                            <li class="menu-item"><a href="/services/facials">Facials</a></li>
+                            <li class="menu-item"><a href="/services/body-care">Body Care</a></li>
                         </ul>
                     </li>
                     <li class="menu-item"><a href="/our-team">Our Team</a></li>
