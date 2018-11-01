@@ -1,0 +1,10 @@
+# Redirects from what the browser requests to what we serve
+
+https://www.salonbuilder.com/website/158750/contact.asp /contact-us
+http://www.simplymassagenj.com/custom.asp?PID=7213 /testimonials
+http://www.simplymassagenj.com/custom.asp?PID=8152 /
+http://www.simplymassagenj.com/custom.asp?PID=8154 /services
+https://www.salonbuilder.com/website/158750/guestbook.asp /contact-us
+http://www.simplymassagenj.com/staff.asp /our-team
+http://www.simplymassagenj.com/promo.asp /services
+http://www.simplymassagenj.com/product.asp /
