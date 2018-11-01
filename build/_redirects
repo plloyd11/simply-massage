@@ -6,6 +6,8 @@
 /staff.asp /our-team
 /promo.asp /services
 /product.asp /
+/default.asp /
+/services.asp /services
 
 # Redirect default Netlify subdomain to primary domain
 

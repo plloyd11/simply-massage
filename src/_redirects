@@ -6,6 +6,12 @@
 /staff.asp /our-team
 /promo.asp /services
 /product.asp /
+/default.asp /
+/services.asp /services
+/services.asp?TID=9242#T9242 /services/massage
+/services.asp?TID=9241#T9241 /services/facials
+/services.asp?TID=3013#T3013 /services/body-care
+/services.asp?TID=89058#T89058 /services/gemstone-facelift-facial
 
 # Redirect default Netlify subdomain to primary domain
 
