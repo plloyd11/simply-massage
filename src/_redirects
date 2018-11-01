@@ -7,7 +7,7 @@ http://www.simplymassagenj.com/custom.asp?PID=8154 /services
 https://www.salonbuilder.com/website/158750/guestbook.asp /contact-us
 http://www.simplymassagenj.com/staff.asp /our-team
 http://www.simplymassagenj.com/promo.asp /services
-http://www.simplymassagenj.com/product.asp /
+/product.asp /
 
 # Redirect default Netlify subdomain to primary domain
 https://simplymassagenj.netlify.com/* https://simplymassagenj.com/:splat 301!
