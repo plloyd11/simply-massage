@@ -13,6 +13,9 @@
 /services.asp?TID=3013#T3013 /services/body-care
 /services.asp?TID=89058#T89058 /services/gemstone-facelift-facial
 
+# Redirect old mobile site to index
+http://mobile.simplymassagenj.com /
+
 # Redirect default Netlify subdomain to primary domain
 
 https://simplymassagenj.netlify.com/* https://simplymassagenj.com/:splat 301!
