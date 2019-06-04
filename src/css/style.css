@@ -2123,7 +2123,7 @@ body:not(.top_panel_fixed) .top_panel_position_over .top_panel_bottom {
     font-style: italic;
 }
 .top_panel_fixed .top_panel_wrap .logo_main {
-    display: none;
+    width: 30%;
 }
 .top_panel_wrap .logo_fixed {
     display: none;

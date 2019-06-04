@@ -16,3 +16,16 @@
         width: 100%;
     }
 }
+
+.intake-form--wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.intake-form--item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
