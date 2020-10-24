@@ -12,6 +12,7 @@
 /services.asp?TID=9241#T9241 /services/facials
 /services.asp?TID=3013#T3013 /services/body-care
 /services.asp?TID=89058#T89058 /services/gemstone-facelift-facial
+/our-team /meet-kari
 
 # Redirect old mobile site to index
 http://mobile.simplymassagenj.com /
